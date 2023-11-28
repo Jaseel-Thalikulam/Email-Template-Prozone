@@ -1,0 +1,84 @@
+body {
+  font-family: 'Outfit';
+  font-size: 22px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #F3F3F3;
+}
+
+
+
+.container {
+  position: relative;
+  /* margin: 10%; Remove this line */
+  width: 80%;
+  /* padding: 20px;  */
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: hidden;
+}
+
+
+.our-vision-container{
+  background-color: #F3F3F3  ;
+  height: 20rem;
+
+}
+
+.hero {
+  background-color: #1B85E7;
+  height: fit-content;
+  padding: 5%;
+}
+
+.hero h1{
+  color: #ffffff;
+}
+
+.hero p{
+  color: #ffffff;
+}
+
+.content {
+  background-color: #ffffff;
+  height: fit-content;
+  margin-top: 20px;
+ padding-left: 10%;
+ padding-right: 10%;
+ margin-top: 10%;
+}
+
+p {
+  font-size: medium;
+  text-align: left;
+}
+
+.our-vision-container{
+  /* background-color: red; */
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 100px; /* Adjust the width as needed */
+  height: auto;
+  margin: 10px; /* Add some margin to create space around the logo */
+}
+
+.footer {
+  margin-top: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+
